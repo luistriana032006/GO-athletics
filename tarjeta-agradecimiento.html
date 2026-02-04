@@ -322,7 +322,7 @@
             <!-- Cierre -->
             <div class="card-footer">
                 <p class="footer-text">Diseñados para moverte.<br>Creados para ganar.</p>
-                <button class="cta-button" onclick="comprar()">Compra Ahora</button>
+                <a href="https://api.whatsapp.com/send/?phone=3014873826&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="cta-button">Compra Ahora</a>
 
                 <!-- Botón Instagram -->
                 <div class="social-links">
@@ -355,11 +355,6 @@
                 productText.innerHTML = `Estrena tus <span class="highlight">${product}</span>, sal ahí fuera y haz que cada paso destaque.`;
             });
         });
-
-        // Función para el botón de compra
-        function comprar() {
-            alert('¡Gracias por tu compra! Prepárate para conquistar tus metas con Go Athletics.');
-        }
 
         // Efecto de hover en la tarjeta
         const card = document.querySelector('.card');
